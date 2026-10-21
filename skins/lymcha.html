@@ -6,7 +6,7 @@
     <!-- MIT License -->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2026-10-19 -->
+    <!-- Page build 2026-10-21 -->
     <!-- Jekyll Version 4.4.1 -->
     <!-- Google structured data -->
     <script type="application/ld+json">
@@ -390,11 +390,15 @@
      <div class="bs-component">
         <!-- Chulapa classic navbar expanding in lg or above --><nav class="navbar navbar-expand-lg sticky-top navbar-chulapa border border-light my-2">
          <div class="container-fluid mx-md-2">
-            <a class="navbar-brand font-weight-bold" href="https://dieghernan.github.io/benok/">Default</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand font-weight-bold" href="https://dieghernan.github.io/benok/">Default</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDemoToggler" aria-controls="navbarDemoToggler" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-           <div class="collapse navbar-collapse" id="navbarToggler">
-             <ul class="navbar-nav ml-auto"><li class="nav-item">
+           <div class="collapse navbar-collapse" id="navbarDemoToggler">
+             <ul class="navbar-nav ml-auto">
+                           <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span>
+                </a>
+             </li><li class="nav-item">
                   <a class="nav-link " href="https://dieghernan.github.io/benok/blog/">Blog</a>
                </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle " href="#" id="Docs" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Docs</a>
                  <div class="dropdown-menu dropdown-menu-right" role="group" aria-labelledby="Docs"><a class="dropdown-item " href="https://dieghernan.github.io/benok/docs">Read the Docs</a><a class="dropdown-item " href="https://dieghernan.github.io/benok/docs/01-install">Installation</a><a class="dropdown-item " href="https://dieghernan.github.io/benok/docs/02-config">Global Settings</a><a class="dropdown-item " href="https://dieghernan.github.io/benok/docs/03-theming">Theming your site</a><a class="dropdown-item " href="https://dieghernan.github.io/benok/docs/04-layouts">Layouts &amp; Snippets</a><a class="dropdown-item " href="https://dieghernan.github.io/benok/docs/05-faq">FAQs</a><a class="dropdown-item " href="https://dieghernan.github.io/benok/docs/markdown-cheatsheet">Markdown cheatsheet</a><a class="dropdown-item " href="https://dieghernan.github.io/benok/docs/syntax-highlighting">Syntax highlighting</a><a class="dropdown-item " href="https://dieghernan.github.io/benok/docs/variable-dictionary">Variable dictionary</a></div>
@@ -412,8 +416,20 @@
                     <i class="fa fa-search" aria-hidden="true"></i>
                     <span class="sr-only">Search</span>
                   </a>
-               </li></ul>
-           </div></div>
+               </li><li class="nav-item dropdown chulapa-theme-selector">
+  <button type="button" class="nav-link dropdown-toggle chulapa-theme-toggle" id="chulapa-theme-demo-dark" data-toggle="dropdown" aria-expanded="false" aria-label="Color theme: Light" title="Color theme: Light">
+    <i class="fas fa-sun" aria-hidden="true"></i>
+    <span class="chulapa-theme-label">Light</span>
+  </button>
+ <div class="dropdown-menu dropdown-menu-right" role="group" aria-labelledby="chulapa-theme-demo-dark">
+    <button type="button" class="dropdown-item" data-theme-mode="light" aria-pressed="true"><i class="fas fa-sun mr-2" aria-hidden="true"></i>Light</button>
+    <button type="button" class="dropdown-item" data-theme-mode="dark" aria-pressed="false"><i class="fas fa-moon mr-2" aria-hidden="true"></i>Dark</button>
+    <button type="button" class="dropdown-item" data-theme-mode="auto" aria-pressed="false"><i class="fa fa-adjust mr-2" aria-hidden="true"></i>Auto</button>
+ </div>
+</li>
+               </ul>
+           </div>
+         </div>
        </nav>
        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -2011,18 +2027,18 @@
              <nav class="card-group" aria-label="random -articles"><div class="card  border chulapa-related">
        <div class="card-body">
          <p class="card-title chulapa-headingfont">
-            <a href="https://dieghernan.github.io/benok/skins/butterfly-dark" class="chulapa-text-body-color">
-              Butterfly Dark
+            <a href="https://dieghernan.github.io/benok/skins/pear" class="chulapa-text-body-color">
+              Pear
             </a>
          </p>
            <p class="card-text">
-              <small>Night, night</small>
+              <small>A juicy and fresh skin on nice greens</small>
            </p></div>
        <div class="card-footer bg-transparent">
             <small>
               <i class="far fa-calendar" aria-hidden="true"></i>
-              <time datetime="2025-03-02T00:00:00+01:00">
-                march 02, 2025
+              <time datetime="2020-07-22T00:00:00+02:00">
+                july 22, 2020
               </time>
             </small>
        </div>
@@ -2030,18 +2046,18 @@
      <div class="card ml-sm-1 border chulapa-related">
        <div class="card-body">
          <p class="card-title chulapa-headingfont">
-            <a href="https://dieghernan.github.io/benok/skins/slate" class="chulapa-text-body-color">
-              Slate
+            <a href="https://dieghernan.github.io/benok/skins/minco" class="chulapa-text-body-color">
+              Minco
             </a>
          </p>
            <p class="card-text">
-              <small>Shades of gunmetal gray</small>
+              <small>Unique and stylish with a readable font</small>
            </p></div>
        <div class="card-footer bg-transparent">
             <small>
               <i class="far fa-calendar" aria-hidden="true"></i>
-              <time datetime="2025-02-26T00:00:00+01:00">
-                february 26, 2025
+              <time datetime="2025-02-11T00:00:00+01:00">
+                february 11, 2025
               </time>
             </small>
        </div>
@@ -2049,18 +2065,18 @@
      <div class="card ml-sm-1 border chulapa-related">
        <div class="card-body">
          <p class="card-title chulapa-headingfont">
-            <a href="https://dieghernan.github.io/benok/skins/mickie" class="chulapa-text-body-color">
-              Mickie
+            <a href="https://dieghernan.github.io/benok/skins/electro" class="chulapa-text-body-color">
+              Electro
             </a>
          </p>
            <p class="card-text">
-              <small>Like a precocious child that doesn’t go away</small>
+              <small>The intense, saturated blue theme with rounded buttons</small>
            </p></div>
        <div class="card-footer bg-transparent">
             <small>
               <i class="far fa-calendar" aria-hidden="true"></i>
-              <time datetime="2025-02-16T00:00:00+01:00">
-                february 16, 2025
+              <time datetime="2025-02-14T00:00:00+01:00">
+                february 14, 2025
               </time>
             </small>
        </div>
