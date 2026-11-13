@@ -1,66 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-	<channel>
-		<title>Chulapa | A full flexible Jekyll theme</title>
-		<generator>(c) Chulapa Jekyll Theme RSS generator</generator>
-		<link>https://dieghernan.github.io/benok</link>
-		<description>Template for creating free sites on Github Pages</description>
-		<language>en-US</language>
-		<copyright>(c) 2026, dieghernan</copyright>
-		<pubDate>Wed, 11 Nov 2026 17:06:54 +0100</pubDate>
-		<lastBuildDate>Wed, 11 Nov 2026 17:06:54 +0100</lastBuildDate>
-		<category>blog</category>
-		<ttl>60</ttl>
-		<atom:link href="https://dieghernan.github.io/benok/rss.xml" rel="self" type="application/rss+xml" />
-		<image>
-			<title>Chulapa | A full flexible Jekyll theme</title>
-			<url>https://dieghernan.github.io/benok/assets/img/site/banner.png</url>
-			<link>https://dieghernan.github.io/benok</link>
-			<description>Template for creating free sites on Github Pages</description>
-		</image>
-		<item>
-			<dc:creator>dieghernan</dc:creator>
-			<title>Welcome</title>
-			<description>
-				<![CDATA[	
- 				
-    		<p>1 min.</p>
-				<div><p>Welcome to <span class="chulapa">Chulapa</span>. This is another Jekyll theme that you can use for creating your site.</p>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Chulapa | A full flexible Jekyll theme</title>
+    <generator>(c) Chulapa Jekyll Theme RSS generator</generator>
+    <link>https://dieghernan.github.io/benok</link>
+    <description>Template for creating free sites on Github Pages</description>
+    <language>en-US</language>
+    <copyright>(c) 2026, dieghernan</copyright>
+    <pubDate>Fri, 15 May 2020 00:00:00 +0200</pubDate>
+    <lastBuildDate>Fri, 13 Nov 2026 17:15:38 +0100</lastBuildDate>
+    <category>blog</category>
+    <ttl>60</ttl>
+    <atom:link href="https://dieghernan.github.io/benok/rss.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <title>Chulapa | A full flexible Jekyll theme</title>
+      <url>https://dieghernan.github.io/benok/assets/img/site/banner.png</url>
+      <link>https://dieghernan.github.io/benok</link>
+      <description>Template for creating free sites on Github Pages</description>
+    </image>
+    
+    <item>
+      <dc:creator>dieghernan</dc:creator>
+      <title>Welcome</title>
+      <description>&lt;p&gt;Welcome to &lt;span class=&quot;chulapa&quot;&gt;Chulapa&lt;/span&gt;. This is another Jekyll theme that you can use for creating your site.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;2 min.&lt;/p&gt;
+      &lt;div&gt;&lt;p&gt;Welcome to &lt;span class=&quot;chulapa&quot;&gt;Chulapa&lt;/span&gt;. This is another Jekyll theme that you can use for creating your site.&lt;/p&gt;
 
-<h2 id="motivation">Motivation</h2>
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
 
-<p>In the last couple of years I created some tiny websites using Github Pages. However, I was not very happy with some of the thousands of Jekyll themes available, since I didn’t find anyone that ticked all the marks:</p>
+&lt;p&gt;In the last couple of years I created some tiny websites using Github Pages. However, I was not very happy with some of the thousands of Jekyll themes available, since I didn’t find anyone that ticked all the marks:&lt;/p&gt;
 
-<ul>
-  <li>Easy to use</li>
-  <li>Awesome looking</li>
-  <li>Plenty of add-ons</li>
-  <li>Feed</li>
-</ul>
+&lt;ul&gt;
+  &lt;li&gt;Easy to use&lt;/li&gt;
+  &lt;li&gt;Awesome looking&lt;/li&gt;
+  &lt;li&gt;Plenty of add-ons&lt;/li&gt;
+  &lt;li&gt;Feed&lt;/li&gt;
+&lt;/ul&gt;
 
-<p>So, as a way of challenge myself, I decided to build this one from scratch. My main references were <a href="https://beautifuljekyll.com/">Beautiful Jekyll</a> and <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a>, that are two pretty good options, much more mature than this one and with hundreds of users. So, why not learn for them? There are pieces and components of these themes on this one.</p>
+&lt;p&gt;So, as a way of challenge myself, I decided to build this one from scratch. My main references were &lt;a href=&quot;https://beautifuljekyll.com/&quot;&gt;Beautiful Jekyll&lt;/a&gt; and &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/&quot;&gt;Minimal Mistakes&lt;/a&gt;, that are two pretty good options, much more mature than this one and with hundreds of users. So, why not learn for them? There are pieces and components of these themes on this one.&lt;/p&gt;
 
-<h2 id="one-theme-a-thousand-looks">One theme, a thousand looks</h2>
+&lt;h2 id=&quot;one-theme-a-thousand-looks&quot;&gt;One theme, a thousand looks&lt;/h2&gt;
 
-<p>Without knowing nothing about <code class="language-plaintext highlighter-rouge">css</code>, I taught myself about rules, specificities, flexboxes, etc. through implementing <strong>Bootstrap v4</strong> as the <code class="language-plaintext highlighter-rouge">css</code> base of <span class="chulapa">Chulapa</span>.</p>
+&lt;p&gt;Without knowing nothing about &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;css&lt;/code&gt;, I taught myself about rules, specificities, flexboxes, etc. through implementing &lt;strong&gt;Bootstrap v4&lt;/strong&gt; as the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;css&lt;/code&gt; base of &lt;span class=&quot;chulapa&quot;&gt;Chulapa&lt;/span&gt;.&lt;/p&gt;
 
-<p>This is not the first theme with this implementation, but I found the way to configure it via <code class="language-plaintext highlighter-rouge">_config</code>, that allows any user to easily change the look of the site without knowing nothing about <code class="language-plaintext highlighter-rouge">css/scss</code>. On top of that, implementing Bootstrap themes from third parties is fast and reliable.</p>
+&lt;p&gt;This is not the first theme with this implementation, but I found the way to configure it via &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config&lt;/code&gt;, that allows any user to easily change the look of the site without knowing nothing about &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;css/scss&lt;/code&gt;. On top of that, implementing Bootstrap themes from third parties is fast and reliable.&lt;/p&gt;
 
-<p>The huge advantage is that, if you give it a go, you can use  <span class="chulapa">Chulapa</span> in any site you want but still define an unique look to each of them. No one could notice that the theme is the same!</p>
+&lt;p&gt;The huge advantage is that, if you give it a go, you can use  &lt;span class=&quot;chulapa&quot;&gt;Chulapa&lt;/span&gt; in any site you want but still define an unique look to each of them. No one could notice that the theme is the same!&lt;/p&gt;
 
-<h2 id="next-steps">Next steps</h2>
+&lt;h2 id=&quot;next-steps&quot;&gt;Next steps&lt;/h2&gt;
 
-<p>Currently I am developing the docs and examples of this theme, so there is not a stable release yet. You can start using it right now but consider this as the <strong>alpha version</strong>.</p>
+&lt;p&gt;Currently I am developing the docs and examples of this theme, so there is not a stable release yet. You can start using it right now but consider this as the &lt;strong&gt;alpha version&lt;/strong&gt;.&lt;/p&gt;
 
-<p>On top of that, <strong>Bootstrap v5</strong> and <strong>Fontawesome 6</strong> are on this way with some potential breaking changes. I am already preparing the theme for migration, please stay tuned for more updates!</p>
-</div>
-				]]>
-			</description>
-			<link>https://dieghernan.github.io/benok/blog/20200515_welcome</link>
-			<category>posts</category>
-		    <category>bootstrap</category><category>jekyll</category><category>news</category><media:title type="html"><![CDATA[Welcome ]]></media:title>
-      <media:content url="https://dieghernan.github.io/benok/assets/img/site/chulapa-madrid.jpg" medium="image"/>
-      <media:thumbnail url="https://dieghernan.github.io/benok/assets/img/site/chulapa-madrid.jpg" /><guid isPermaLink="true">https://dieghernan.github.io/benok/blog/20200515_welcome</guid>
+&lt;p&gt;On top of that, &lt;strong&gt;Bootstrap v5&lt;/strong&gt; and &lt;strong&gt;Fontawesome 6&lt;/strong&gt; are on this way with some potential breaking changes. I am already preparing the theme for migration, please stay tuned for more updates!&lt;/p&gt;
+&lt;/div&gt;</content:encoded>
+      <link>https://dieghernan.github.io/benok/blog/20200515_welcome</link>
+      <category>posts</category>
+      <category>bootstrap</category>
+      <category>jekyll</category>
+      <category>news</category>
+      <media:title type="plain">Welcome</media:title>
+      <media:content url="https://dieghernan.github.io/benok/assets/img/site/chulapa-madrid.jpg" medium="image" />
+      <media:thumbnail url="https://dieghernan.github.io/benok/assets/img/site/chulapa-madrid.jpg" />
+      <guid isPermaLink="true">https://dieghernan.github.io/benok/blog/20200515_welcome</guid>
       <pubDate>Fri, 15 May 2020 00:00:00 +0200</pubDate>
-		</item></channel>
+      
+    </item>
+  </channel>
 </rss>

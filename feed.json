@@ -1,0 +1,31 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Chulapa",
+  "home_page_url": "https://dieghernan.github.io/benok/",
+  "feed_url": "https://dieghernan.github.io/benok/feed.json",
+  "language": "en-US",
+  "description": "Template for creating free sites on Github Pages",
+  "icon": "https://dieghernan.github.io/benok/assets/img/site/banner.png",
+  "favicon": "https://dieghernan.github.io/benok/assets/img/site/brand-white.png",
+  "authors": [{
+    "name": "dieghernan",
+    "url": "https://github.com/dieghernan/"
+  }],
+  "items": [
+    {
+      "id": "https://dieghernan.github.io/benok/blog/20200515_welcome",
+      "url": "https://dieghernan.github.io/benok/blog/20200515_welcome",
+      "title": "Welcome",
+      "content_html": "<p>Welcome to <span class=\"chulapa\">Chulapa</span>. This is another Jekyll theme that you can use for creating your site.</p>\n\n<h2 id=\"motivation\">Motivation</h2>\n\n<p>In the last couple of years I created some tiny websites using Github Pages. However, I was not very happy with some of the thousands of Jekyll themes available, since I didn’t find anyone that ticked all the marks:</p>\n\n<ul>\n  <li>Easy to use</li>\n  <li>Awesome looking</li>\n  <li>Plenty of add-ons</li>\n  <li>Feed</li>\n</ul>\n\n<p>So, as a way of challenge myself, I decided to build this one from scratch. My main references were <a href=\"https://beautifuljekyll.com/\">Beautiful Jekyll</a> and <a href=\"https://mmistakes.github.io/minimal-mistakes/\">Minimal Mistakes</a>, that are two pretty good options, much more mature than this one and with hundreds of users. So, why not learn for them? There are pieces and components of these themes on this one.</p>\n\n<h2 id=\"one-theme-a-thousand-looks\">One theme, a thousand looks</h2>\n\n<p>Without knowing nothing about <code class=\"language-plaintext highlighter-rouge\">css</code>, I taught myself about rules, specificities, flexboxes, etc. through implementing <strong>Bootstrap v4</strong> as the <code class=\"language-plaintext highlighter-rouge\">css</code> base of <span class=\"chulapa\">Chulapa</span>.</p>\n\n<p>This is not the first theme with this implementation, but I found the way to configure it via <code class=\"language-plaintext highlighter-rouge\">_config</code>, that allows any user to easily change the look of the site without knowing nothing about <code class=\"language-plaintext highlighter-rouge\">css/scss</code>. On top of that, implementing Bootstrap themes from third parties is fast and reliable.</p>\n\n<p>The huge advantage is that, if you give it a go, you can use  <span class=\"chulapa\">Chulapa</span> in any site you want but still define an unique look to each of them. No one could notice that the theme is the same!</p>\n\n<h2 id=\"next-steps\">Next steps</h2>\n\n<p>Currently I am developing the docs and examples of this theme, so there is not a stable release yet. You can start using it right now but consider this as the <strong>alpha version</strong>.</p>\n\n<p>On top of that, <strong>Bootstrap v5</strong> and <strong>Fontawesome 6</strong> are on this way with some potential breaking changes. I am already preparing the theme for migration, please stay tuned for more updates!</p>\n",
+      "date_published": "2020-05-15T00:00:00+02:00",
+      "image": "https://dieghernan.github.io/benok/assets/img/site/chulapa-madrid.jpg",
+      "summary": "Welcome to Chulapa. This is another Jekyll theme that you can use for creating your site.",
+      "tags": ["news","bootstrap","jekyll"],
+      "authors": [{
+        "name": "dieghernan",
+        "url": "https://github.com/dieghernan/"
+      }]
+    }
+    
+  ]
+}
