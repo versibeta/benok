@@ -2,11 +2,11 @@
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
-    <!-- Chulapa Jekyll Theme - v2.3.0 -->
+    <!-- Chulapa Jekyll Theme - v2.3.1.dev -->
     <!-- MIT License -->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2026-11-20 -->
+    <!-- Page build 2026-11-23 -->
     <!-- Jekyll Version 4.4.1 -->
     <!-- Google structured data -->
     <script type="application/ld+json">
@@ -147,7 +147,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7/css/all.min.css">
-    <link rel="preload" href="/benok/assets/js/chulapa_script.js" as="script" >
+    <link rel="preload" href="/benok/assets/js/chulapa_script.min.js" as="script" >
     <link rel="preload" href="/benok/assets/fonts/Chulapa/Chulapa-Bold_vmod.otf" as="font" type="font/otf" crossorigin>
     <!-- Theme css (Bootstrap included) -->
     <link rel="stylesheet" id="maincss" href="https://dieghernan.github.io/benok/assets/css/main.css" >
@@ -256,9 +256,9 @@
 	</div>
 </header>
 	<div class="container-lg pb-3 flex-fill">
-<div class="row my-1">
+<div class="row my-1 pr-1 pr-lg-0">
 <div class="col-lg-5 offset-lg-2 col small">
- <nav aria-label="breadcrumb">
+ <nav aria-label="breadcrumb" class="chulapa-breadcrumb">
   <ol class="breadcrumb my-0 py-0 chulapa-bg-transparent pl-0" itemscope itemtype="https://schema.org/BreadcrumbList" itemid="https://dieghernan.github.io/benok/blog/20200515_welcome#breadcrumb">
             <li class="breadcrumb-item" itemprop="itemListElement" itemscope
           itemtype="https://schema.org/ListItem" itemid="https://dieghernan.github.io/benok/blog/20200515_welcome#breadcrumb-1"><a href="https://dieghernan.github.io/benok/blog/" itemprop="item"><span itemprop="name">Blog</span></a>
@@ -271,15 +271,14 @@
      </li>
  </ol>
  </nav>
- <div class="chulapaDateSocial">
-            <time datetime="2020-05-15T00:00:00+02:00" class="dt-published" >15 may 2020</time>
+ <div class="chulapaDateSocial"><time datetime="2020-05-15T00:00:00+02:00" class="dt-published" >15 may 2020</time>
         </div></div>
-         <div class="col-lg-3 col-sm-4 col-3 text-right lead chulapaDateSocial">
-            <a  href="https://twitter.com/intent/tweet?url=https://dieghernan.github.io/benok/blog/20200515_welcome&text=Welcome&via=dhernangomez&hashtags=news,bootstrap,jekyll" title="Share on X" aria-label="Share on X" ><i class="fab fa-square-x-twitter fa-lg" aria-hidden="true"></i></a>
-            <a href="https://bsky.app/intent/compose?text=Welcome%20https://dieghernan.github.io/benok/blog/20200515_welcome%20%23news%20%23bootstrap%20%23jekyll" title="Share on Bluesky" aria-label="Share on Bluesky"><i class="fa-brands fa-square-bluesky fa-lg" aria-hidden="true"></i></a>
-            <a  class="d-none d-sm-inline" href="https://www.facebook.com/sharer.php?u=https://dieghernan.github.io/benok/blog/20200515_welcome" title="Share on Facebook" aria-label="Share on Facebook" ><i class="fab fa-facebook-square fa-lg" aria-hidden="true"></i></a>
-             <a  class="d-none d-sm-inline" href="https://api.whatsapp.com/send?&text=Welcome%20https://dieghernan.github.io/benok/blog/20200515_welcome" title="Share on Whatsapp" aria-label="Share on Whatsapp" ><i class="fab fa-whatsapp-square fa-lg" aria-hidden="true"></i></a>
-         <a  class="d-none d-sm-inline" href="https://www.linkedin.com/shareArticle?url=https://dieghernan.github.io/benok/blog/20200515_welcome&title=Welcome" title="Share on LinkedIn" aria-label="Share on LinkedIn"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+         <div class="col-auto col-lg-3 lead chulapaDateSocial chulapa-share-links d-flex align-self-start flex-wrap justify-content-end mr-n1">
+            <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdieghernan.github.io%2Fbenok%2Fblog%2F20200515_welcome&amp;text=Welcome&amp;via=dhernangomez&amp;hashtags=news%2Cbootstrap%2Cjekyll" title="Share on X" aria-label="Share on X"><i class="fab fa-square-x-twitter fa-lg" aria-hidden="true"></i></a>
+            <a class="ml-1" href="https://bsky.app/intent/compose?text=Welcome+https%3A%2F%2Fdieghernan.github.io%2Fbenok%2Fblog%2F20200515_welcome+%23news+%23bootstrap+%23jekyll" title="Share on Bluesky" aria-label="Share on Bluesky"><i class="fa-brands fa-square-bluesky fa-lg" aria-hidden="true"></i></a>
+            <a class="ml-1 d-none d-sm-inline" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdieghernan.github.io%2Fbenok%2Fblog%2F20200515_welcome" title="Share on Facebook" aria-label="Share on Facebook"><i class="fab fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+            <a class="ml-1 d-none d-sm-inline" href="https://api.whatsapp.com/send?text=Welcome+https%3A%2F%2Fdieghernan.github.io%2Fbenok%2Fblog%2F20200515_welcome" title="Share on WhatsApp" aria-label="Share on WhatsApp"><i class="fab fa-whatsapp-square fa-lg" aria-hidden="true"></i></a>
+            <a class="ml-1 d-none d-sm-inline" href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fdieghernan.github.io%2Fbenok%2Fblog%2F20200515_welcome&amp;title=Welcome" title="Share on LinkedIn" aria-label="Share on LinkedIn"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
          </div></div>
 		<div class="row pt-2">
 			<aside class="col-lg-2 mt-lg-3 small"><div class="h-card p-author chulapa-post-author"><div class="row d-flex align-items-center mb-2"><img src="https://dieghernan.github.io/benok/assets/img/site/dieghernan-avatar.png" alt="dieghernan" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size u-photo"><div class="col-9 col-lg-12 text-lg-center p-name">
@@ -395,8 +394,8 @@
 	  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-  <script src="/benok/assets/js/chulapa_navigation.js"></script>
-	<script src="/benok/assets/js/chulapa_script.js"></script>
+  <script src="/benok/assets/js/chulapa_navigation.min.js"></script>
+  <script src="/benok/assets/js/chulapa_script.min.js"></script>
 	<!-- start custom scripts to be placed at the bottom of the page -->
 <!-- end custom bottom scripts -->
 	</body>
